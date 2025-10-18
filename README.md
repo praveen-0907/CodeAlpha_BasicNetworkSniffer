@@ -59,7 +59,7 @@ sudo apt install -y libpcap-dev python3-pip
 python3 -m pip install --upgrade pip
 python3 -m pip install scapy
 ```
-### Notes / Caveats
+## Notes / Caveats
 
 - Root privileges required for live capture.
 - Filters must match existing traffic; otherwise, no packets will be written.
@@ -67,7 +67,7 @@ python3 -m pip install scapy
 - Large .pcap files are handled safely via PcapReader.
 - Console output can be verbose; use -q to suppress summaries.
 
-### Project Goals
+## Project Goals
 
 - Learn packet capture and network protocol basics
 - Understand TCP handshake vs payload (Len=0 for SYN/ACK, >0 for data)
