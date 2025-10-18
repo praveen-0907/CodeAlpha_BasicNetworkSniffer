@@ -1,7 +1,7 @@
 # Sniffer CLI (Python / Scapy)
 
 ## Overview
-`sniffer_cli.py` is a **Kali Linux-ready packet sniffer** written in Python using Scapy. It allows users to:
+`sniffer-cli.py` is a **Kali Linux-ready packet sniffer** written in Python using Scapy. It allows users to:
 
 - Capture live network traffic on a specified interface
 - Apply optional libpcap filters (BPF)
